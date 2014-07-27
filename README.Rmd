@@ -7,9 +7,11 @@ Procedure
 1.Load files in R.
 2.Substitute the y_train and y_test with appropriate activity labels
 3.Add Column names of x_test and x_train with features.
-4 Use grep command to find mean and std dev columns from the data set and created a subset.
-5.Merge the two datas set using rbind.
-6.Use aggregate function to create final Data Set
+4.Merge subject_test, x_test and y_test
+5.Merge subject_train, x_train and y_train
+6. Use grep command to find mean and std dev columns from the data set and created a subset.
+7.Merge the two datas set using rbind.
+8.Use aggregate function to create final Data Set
 
 
 Code Book :
