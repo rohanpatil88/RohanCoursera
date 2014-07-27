@@ -1,5 +1,18 @@
 Getting & Cleaning Data - Course Project
 ========================================================
 
-R Script file - run_analysis.R
-Codebook - Code Book.xlsx
+R Script : run_analysis.R 
+
+Procedure
+After loading the files into R, the y_train and y_test we substitutes with appropriate activity labels 
+and the x_test and x_train with features.
+Then used grep command to find mean and std dev  columns from the data set and created a subset.
+Then merged the two data set using rbind.
+Then using aggregate function created file Data set
+
+
+Code Book :
+Contains all the definations for the variables used in the data set.
+
+
+
